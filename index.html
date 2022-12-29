@@ -7,7 +7,6 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
       <img
         src="/images/pngtree-a-beautiful-guitar-vector-or-color-illustration-png-image_2030580.jpg"
@@ -22,11 +21,19 @@
     </header>
 
     <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <input type="email" id="email" placeholder="user@example.com" required/>
-      <input type="submit" value="Submit" id="submit">
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="user@example.com"
+        required
+      />
+
+      <input type="submit" value="Submit" id="submit" />
     </form>
 
     <iframe
+      id="video"
       width="560"
       height="315"
       src="https://www.youtube.com/embed/Z5lhGTalu28"
@@ -35,6 +42,10 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
+
+    <section id="features"></section>
+    <section id="how-it-works"></section>
+    <section id="pricing"></section>
     <!--
 
     Hello Camper!
@@ -47,6 +58,7 @@
     - The freeCodeCamp Team
 
     -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
