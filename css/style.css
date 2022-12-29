@@ -1,0 +1,17 @@
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+}
+
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+}
