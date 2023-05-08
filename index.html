@@ -7,10 +7,92 @@
   </head>
 
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    Hello World, we are software developers!
-    <!--
+    <header id="header">
+      <img
+        src="images/pngtree-a-beautiful-guitar-vector-or-color-illustration-png-image_2030580.jpg"
+        alt=""
+        id="header-img"
+        class="header-img"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#how-it-works">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
 
+    <section id="hero" class="hero">
+      <h1>The Guitar Shop</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quasi
+        nobis sapiente necessitatibus aliquam, earum quis illum repellendus
+        alias magni adipisci quos hic unde voluptatum numquam beatae consequatur
+        perferendis provident!
+      </p>
+    </section>
+
+    <section id="features">
+      <div class="feature">
+        <img src="images/shop.jpg" alt="guitar being polished" />
+        <div>
+          <h2>Many Styles</h2>
+          <p>
+            Our shop has a lot of guitar types and styles you can choose from
+          </p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="images/making-guitars.jpg" alt="guitar being polished" />
+        <div>
+          <h2>Premium Materials</h2>
+          <p>
+            We use only the best materials to make the highest quality guitars.
+          </p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <img src="images/finishing.jpg" alt="guitar being polished" />
+        <div>
+          <h2>Custom Finish</h2>
+          <p>
+            We can paint any custom graphics you want on your brand new guitar
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works"></section>
+    <section id="pricing"></section>
+
+    <section id="sign-up">
+      <h2>Join Our Community</h2>
+      <div><p>Sign up to our news letter!</p></div>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">Your Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="user@example.com"
+          required
+        />
+
+        <input type="submit" value="Sign Up" id="submit" />
+      </form>
+    </section>
+    <iframe
+      id="video"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Z5lhGTalu28"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <!--
+    
     Hello Camper!
 
     For now, the test suite only works in Chrome!
@@ -21,6 +103,7 @@
     - The freeCodeCamp Team
 
     -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
